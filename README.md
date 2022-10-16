@@ -9,4 +9,5 @@ A collection of web scraping projects.
 List of Websites
 ------
 
-1. Futbin (FIFA Ultimate Team 2022)
+1. Futbin (FIFA Ultimate Team 2022) [10th October 2022]
+2. BeSoccer (Injury List of a Player) [17th October 2022]
