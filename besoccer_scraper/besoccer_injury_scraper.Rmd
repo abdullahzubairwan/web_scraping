@@ -1,0 +1,245 @@
+---
+title: "BeSoccer Injury Web Scraping Process"
+author: "Abdullah Zubair"
+date: "2022-10-12"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+We attempt at a web scraping of a page, BeSoccer to get the list of injuries of Gabriel Jesus. The challenge is to analyze the pattern of the URLs and later to turn the output into a tidy dataframe. We use the R packages listed below.
+
+It is evidently clear that there may be a much quicker way to code this web scraping but I intended it to be flexible to any changes in Data such as other player's injury record.
+
+## 1.0 Libraries
+
+```{r message=FALSE,warning=FALSE}
+library(rvest)
+library(Rcrawler)
+library(dplyr)
+library(stringr)
+library(lubridate)
+library(tidyr)
+```
+
+## 2.0 Get Team Page
+
+```{r}
+leaguepath = "https://www.besoccer.com/competition/table/premier_league/2023"
+teamlinks = LinkExtractor(leaguepath)[["InternalLinks"]]
+teampages = grep("www.besoccer.com/team",teamlinks)
+teampages = teamlinks[teampages]
+# Remove the unwanted link
+teampages = teampages[-1]
+teampages
+```
+
+## 3.0 Generate Squad Page
+
+-  Sample Page : https://www.besoccer.com/team/squad/afc-bournemouth
+-  Just need to add /squad/ to the urls rather than do another round of LinkExtractor
+
+```{r}
+a = unlist(str_split(teampages,"https://www.besoccer.com/team"))
+a = a[a != ""]
+a = paste0("https://www.besoccer.com/team/squad",a)
+head(a)
+```
+
+## 4.0 Get Player List
+
+```{r}
+players = LinkExtractor(a[1])[["InternalLinks"]]
+playerspages = grep("www.besoccer.com/player",players)
+playerspages = players[playerspages]
+# Remove unwanted link
+playerspages = playerspages[-1]
+playerspages
+```
+
+## 5.0 Get the links to the page that has injury lists
+
+-  Sample Page : https://www.besoccer.com/player/career-path/a-ramsdale-325210
+-  Similarly like before, we just need to add the /career-path/ to the links
+
+```{r}
+a = unlist(str_split(playerspages,"https://www.besoccer.com/player/"))
+a = a[a != ""]
+player_cpath = paste0("https://www.besoccer.com/player/career-path/",a)
+```
+
+## 6.0 Extract Information
+
+Now we access Gabriel Jesus' page at BeSoccer and start to extract information.
+
+The URL is **`r player_cpath[21]`**
+
+### 6.1 Create Club Table
+
+On the webpage, we extracted his transfer history to specify which club he was injured for whilst playing.
+
+```{r}
+# Read URL
+a1 = read_html(player_cpath[21]) 
+
+# Get Club Data
+cur_club = a1 %>% html_nodes("div#mod_detail_player_transfers.grid-item") %>% html_table() %>% as.data.frame()
+colnames(cur_club) = c("date","from_club","to_club","fee")
+cur_club = cur_club %>% mutate(date = str_squish(date),
+                               from_club = str_squish(from_club),
+                               to_club = str_squish(to_club),
+                               fee = str_squish(fee)) %>% 
+  separate(date, into = c("season","date"),sep = " ") %>% mutate(date = as.Date(date,format = "%d-%m-%Y")) 
+
+# Rearranging the Data to have his club, starting and ending date at the club
+start_club = vector()
+end_club = vector()
+startdate = vector()
+enddate = vector()
+for (i in 1:nrow(cur_club)) {
+  # get club
+  pat_loc_s = data.frame(str_locate_all(cur_club$from_club[i],"\\}"))
+  pat_loc_e = data.frame(str_locate_all(cur_club$to_club[i],"\\}"))
+  start_club[i] = str_sub(cur_club$from_club[i],start = pat_loc_s$end[1]+1)
+  end_club[i] = str_sub(cur_club$to_club[i],start = pat_loc_e$end[1]+1)
+  if(i == 1){
+  startdate[i] = cur_club$date[i] 
+  enddate[i] = Sys.Date() # just a date placeholder for current club's end date
+}else if(i == nrow(cur_club)){
+  startdate[i] = cur_club$date[i]-2 # just a placeholder for first club's start date
+  enddate[i] = cur_club$date[i]
+}else{
+  startdate[i] = cur_club$date[i]
+  enddate[i] = cur_club$date[i-1]-1
+}
+ }
+
+cur_club = cur_club %>% mutate(from_club = str_squish(start_club),to_club = str_squish(end_club),
+                                start_date = as.Date(startdate, origin = "1970-01-01"),
+                                end_date = as.Date(enddate, origin = "1970-01-01")) %>% 
+  select(club = to_club,start_date,end_date)
+
+DT::datatable(cur_club)
+```
+
+### 6.2 Get Injury Data
+
+Now that his employers are sorted, we move towards getting the actual injury data. This is how the Raw data looks like after removing whitespaces:
+
+```{r}
+# Get the injury data
+pname = a1 %>% html_nodes("h2.title.ta-c") %>% html_text()
+
+a2 = a1 %>% html_nodes("div#mod_detail_player_injuries.grid-item") %>% html_text()
+# Remove Whitespace and special characters
+a2 = str_squish(a2)
+
+print(a2)
+```
+
+If we look closely, the Data is split by Year, similar how it is on the web page. We separate the data by Year so that it will be easier to tag the date of injury
+
+```{r}
+a3 = unlist(strsplit(a2,"Archive"))
+a3 = str_squish(a3)
+a3 = a3[a3 != ""]
+head(a3)
+```
+
+## 7.0 Organizing into Data
+
+There strategy is similar to previous method. Find a pattern and break it down into smaller pieces to fit into our Data frame.
+
+```{r}
+# Prepare pattern for Regex Later (To Extract the Injury Date)
+month_name = month.name
+month_name = paste(month_name,collapse = "|")
+
+# Get the Year
+inj_year = grep("[[:digit:]]{4}",a3[1],value = T)
+inj_year = unlist(str_extract_all(a3,"(1|2)\\d{3}"))
+```
+
+
+```{r}
+# Get the cause of injury
+full_inj_df = data.frame()
+for(j in 1:length(inj_year)){
+  # Remove all spaces
+  a4 = str_squish(a3[j])
+  # Separate the cause and injury date
+  cause_locator = data.frame(str_locate_all(a4,"Cause"))
+  from_locator = data.frame(str_locate_all(a4,"From"))
+  month_locator = data.frame(str_locate_all(a4,month_name))
+  # Extract the Text
+  inj_cause = vector()
+  inj_date = vector()
+  for (i in 1:nrow(cause_locator)) {
+    inj_cause[i] = substr(a4,start = (cause_locator$end[i]+3),stop = (from_locator$start[i]-1)) 
+    inj_date[i] = substr(a4,start = (from_locator$end[i]+2),stop = month_locator$end[(i*2)])
+  }
+  # Put in a Dataframe
+  inj_df = data.frame("cause" = inj_cause,"date" = inj_date)
+  inj_df = inj_df %>% mutate(year = inj_year[j])
+  full_inj_df = bind_rows(full_inj_df,inj_df)
+}
+# Tidy the Data
+full_inj_df = full_inj_df %>% separate(col = "date",into = c("date_start","date_end"),sep = "until") %>% 
+  mutate(date_start = trimws(date_start),
+         date_end = trimws(date_end))
+# 
+
+DT::datatable(full_inj_df)
+```
+
+If you monitor closely, there will be a duplicate Data whenever an absence starts from the current year and continues to the year after. For example, row 8 and 9.
+
+We convert it into temporary data format and simply check whether the `month_end` is smaller than `month_start`. Afterwards, we converted the date into R's Date Class
+
+```{r}
+# Temporarily converting into date format for easier check
+full_inj_df$date_start_temp = lubridate::month(as.Date(full_inj_df$date_start,format = "%d %B"))
+full_inj_df$date_end_temp = lubridate::month(as.Date(full_inj_df$date_end,format = "%d %B"))
+# Tag the duplicates
+full_inj_df = full_inj_df %>% mutate(duplicate_marker = ifelse(date_end_temp < date_start_temp,"check","ok"))
+# Removing duplicates 
+t1 = full_inj_df %>% filter(duplicate_marker == "check")
+toDelete <- seq(1, nrow(t1), 2)
+t1 = t1[-toDelete,]
+# binding it back together
+full_inj_df = full_inj_df %>% filter(duplicate_marker != "check") %>% bind_rows(.,t1)
+# Create a column stating year end
+full_inj_df = full_inj_df %>% mutate(year_end = ifelse(duplicate_marker == "check",as.integer(year)+1,year),
+                                       date_start = dmy(paste(date_start,year)),
+                                       date_end = dmy(paste(date_end,year_end))
+                                       ) %>% 
+  arrange(desc(date_start))
+
+# Keep necessary columns
+full_inj_df = full_inj_df[,1:4]
+DT::datatable(full_inj_df)
+```
+
+## 8.0 Adding Metadata
+
+Last but not least, we added the club from the `club table` we retrieved previously. Then we add the Player's name into the table.
+
+```{r}
+# Matching the injury date with the club he was currently at
+full_inj_df$club_at = NA
+for (i in 1:nrow(cur_club)) {
+  interval <- interval(cur_club$start_date[i], cur_club$end_date[i])
+  index <-which(as.POSIXlt(full_inj_df$date_start) %within% interval)
+  full_inj_df$club_at[index] <- cur_club$club[i]
+}
+
+
+# Complete the table with the player name
+full_inj_df = full_inj_df %>% mutate(player_name = pname) %>% relocate(c(player_name,club_at),.before = cause)
+DT::datatable(full_inj_df)
+```
+
+
+
