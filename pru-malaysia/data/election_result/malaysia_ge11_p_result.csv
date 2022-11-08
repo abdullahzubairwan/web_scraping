@@ -1,0 +1,245 @@
+parliament,constituency,winner,winner_coalition,winner_party,votes_winner,votes_winner_pct,opponent,opponent_coalition,opponent_party,votes_opponent,votes_opponent_pct,majority,incumbent,incumbent_coalition,incumbent_party,eligible_voters,malay_voters_pct,chinese_voters_pct,indian_voters_pct,other_voters_pct,muslim_bumiputera_voters_pct,nonmuslim_bumiputera_voters_pct,voter_turnout,voter_turnout_pct,spoilt_votes,spoilt_votes_pct,parliament_number,state,parliament_status,incumbent_contesting
+P001,Padang Besar,Azmi Khalid,BN,UMNO,18323,64.4,Wan Kharizal Wan Khazim,BA,PAS,9058,31.8,9265,Azmi Khalid,BN,UMNO,33899,84,11,NA,3,NA,NA,28453,83.9,672,2.4,1,Perlis,Government,Yes
+P002,Kangar,Mohd Radzi Sheikh Ahmad,BN,UMNO,22498,68,Ishar Saad,BA,PAS,9950,30.1,12548,Abdul Hamid Pawanteh,BN,UMNO,40516,79,18,2,NA,NA,NA,33095,81.7,548,1.7,2,Perlis,Government,No
+P003,Arau,Syed Razlan Syed Putra Jamalullail,BN,UMNO,17367,54.2,Haron Din,BA,PAS,14124,44.1,3243,Mastika Junaidah Husin,BN,UMNO,38067,87,9,NA,2,NA,NA,32062,84.2,533,1.7,3,Perlis,Government,No
+P004,Langkawi,Abu Bakar Taib,BN,UMNO,16510,72.3,Zubir Ahmad,BA,PAS,5738,25.1,10772,Abu Bakar Taib,BN,UMNO,27980,90,7,3,NA,NA,NA,22844,81.6,560,2.5,4,Kedah,Government,Yes
+P005,Jerlun,Abdul Rahman Ariffin,BN,UMNO,19123,51.9,Idris Ahmad,BA,PAS,16981,46.1,2142,Abu Bakar Othman,BA,PAS,44148,90,9,NA,NA,NA,NA,36822,83.4,718,2,5,Kedah,Government,No
+P006,Kubang Pasu,Mohd Johari Baharum,BN,UMNO,26657,65.7,Abdul Isa Ismail,BA,PAS,12945,31.9,13712,Mahathir Mohamad,BN,UMNO,49594,84,10,4,NA,NA,NA,40602,81.9,919,2.3,6,Kedah,Government,No
+P007,Padang Terap,Ghazali Ibrahim,BN,UMNO,14776,52.6,Zawawi Ahmad,BA,PAS,12604,44.9,2172,Zawawi Ahmad,BA,PAS,32412,92,2,NA,6,NA,NA,28094,86.7,693,2.5,7,Kedah,Government,Yes
+P008,Pokok Sena,Abdul Rahman Ibrahim,BN,UMNO,29740,56.1,Mahfuz Omar,BA,PAS,22440,42.3,7300,Mahfuz Omar,BA,PAS,66072,78,19,3,NA,NA,NA,53035,80.3,855,1.6,8,Kedah,Government,Yes
+P009,Alor Setar,Chor Chee Heung,BN,MCA,28379,65.6,Siti Nor Abdul Hamid,BA,PKR,13864,32.1,14515,Chor Chee Heung,BN,MCA,57313,58,36,5,NA,NA,NA,43257,75.5,828,1.9,9,Kedah,Government,Yes
+P010,Kuala Kedah,Hashim Jahaya,BN,UMNO,36707,57.1,Mohamad Sabu,BA,PAS,26493,41.2,10214,Mohamad Sabu,BA,PAS,78791,77,21,2,NA,NA,NA,64332,81.7,1023,1.6,10,Kedah,Government,Yes
+P011,Pendang,Mohd Hayati Othman,BA,PAS,24430,49.7,Md Rozai Shafian,BN,UMNO,24380,49.6,50,Othman Abdul,BN,UMNO,57180,88,7,NA,5,NA,NA,49193,86,383,0.8,11,Kedah,Opposition,No
+P012,Jerai,Badruddin Amiruldin,BN,UMNO,30154,59.2,Che Din Arshad,BA,PAS,19749,38.8,10405,New constituency,NA,NA,63886,77,16,6,NA,NA,NA,50918,79.7,1015,2,12,Kedah,Government,No
+P013,Sik,Wan Azmi Wan Ariffin,BN,UMNO,15357,48.5,Azizan Abdul Razak,BA,PAS,15038,47.5,319,Shahnon Ahmad,BA,PAS,37036,92,2,NA,5,NA,NA,31682,85.5,1287,4.1,13,Kedah,Government,No
+P014,Merbok,Zainuddin Maidin,BN,UMNO,29607,65.8,Saiful Izham Ramli,BA,PKR,14162,31.5,15445,Daim Zainuddin,BN,UMNO,57922,63,19,18,NA,NA,NA,44981,77.7,1142,2.5,14,Kedah,Government,No
+P015,Sungai Petani,Mahadzir Mohd Khir,BN,UMNO,36067,64.8,Zamri Yusuf,BA,PKR,18565,33.4,17502,Mahadzir Mohd Khir,BN,UMNO,70920,58,31,11,NA,NA,NA,55639,78.5,1007,1.8,15,Kedah,Government,Yes
+P016,Baling,Mashitah Ibrahim,BN,UMNO,32661,52.5,Taib Azamudden Md Taib,BA,PAS,28432,45.7,4229,Taib Azamudden Md Taib,BA,PAS,74698,87,6,5,NA,NA,NA,62202,83.2,1109,1.8,16,Kedah,Government,Yes
+P017,Padang Serai,Lim Bee Kau,BN,MCA,26269,60.7,Saifuddin Nasution Ismail,BA,PKR,15953,36.8,10316,Lim Bee Kau,BN,MCA,53925,53,24,23,NA,NA,NA,43307,80.3,1075,2.5,17,Kedah,Government,Yes
+P018,Kulim-Bandar Baharu,Abdul Kadir Sheikh Fadzir,BN,UMNO,22556,58.2,Alwi Mohamed Yusop,BA,PKR,14558,37.5,7998,Abdul Kadir Sheikh Fadzir,BN,UMNO,50024,67,21,12,NA,NA,NA,38789,77.5,1181,3,18,Kedah,Government,Yes
+P019,Tumpat,Kamarudin Jaffar,BA,PAS,27919,50.7,Mat Nawawi Mat Jusoh,BN,UMNO,26099,47.4,1820,Kamarudin Jaffar,BA,PAS,70810,92,3,NA,4,NA,NA,55090,77.8,1072,2,19,Kelantan,Opposition,Yes
+P020,Pengkalan Chepa,Abdul Halim Abdul Rahman,BA,PAS,20621,57.1,Nik Mohd Zain Omar,BN,UMNO,14399,39.8,6222,Nik Mohd. Amar Nik Abdullah,BA,PAS,44844,97,2,NA,NA,NA,NA,36135,80.6,818,2.3,20,Kelantan,Opposition,No
+P021,Kota Bharu,Zaid Ibrahim,BN,UMNO,23831,51,Nik Mahmood Nik Hassan,BA,PKR,22108,47.3,1723,Ramli Ibrahim,BA,PKR,61409,79,19,NA,NA,NA,NA,46707,76.1,768,1.6,21,Kelantan,Government,No
+P022,Pasir Mas,Ismail Noh,BA,PAS,17526,42.3,Ahmed Rahim Abdul Rahman,BN,UMNO,16275,39.3,1251,Ismail Noh,BA,PAS,52771,96,4,NA,NA,NA,NA,41395,78.4,1396,3.4,22,Kelantan,Opposition,Yes
+P022,Pasir Mas,Ismail Noh,BA,PAS,17526,42.3,Ibrahim Ali,NA,IND,6198,15,1251,Ismail Noh,BA,PAS,52771,96,4,NA,NA,NA,NA,41395,78.4,1396,3.4,22,Kelantan,Opposition,Yes
+P023,Rantau Panjang,Abdul Fatah Haron,BA,PAS,15027,49.9,Mohd Daud Hamat,BN,UMNO,14295,47.5,732,Abdul Fatah Haron,BA,PAS,40956,98,NA,NA,NA,NA,NA,30088,73.5,701,2.3,23,Kelantan,Opposition,Yes
+P024,Kubang Kerian,Salahuddin Ayub,BA,PAS,21430,55.7,Ahmad Rusli Iberahim,BN,UMNO,15803,41.1,5627,Husam Musa,BA,PAS,47148,98,2,NA,NA,NA,NA,38458,81.6,1225,3.2,24,Kelantan,Opposition,No
+P025,Bachok,Awang Adek Hussin,BN,UMNO,25194,52.5,Wan Nik Wan Yusoff,BA,PAS,21922,45.7,3272,Wan Nik Wan Yusoff,BA,PAS,55319,98,NA,NA,NA,NA,NA,48009,86.8,893,1.9,25,Kelantan,Government,Yes
+P026,Ketereh,Md Alwi Che Ahmad,BN,UMNO,20024,52.4,Muhamad Mustafa,BA,PKR,17136,44.9,2888,New constituency,NA,NA,46493,97,2,NA,NA,NA,NA,38187,82.1,751,2,26,Kelantan,Government,No
+P027,Tanah Merah,Shaari Hassan,BN,UMNO,16107,52.1,Saupi Daud,BA,PKR,13580,43.9,2527,Saupi Daud,BA,PKR,37665,93,5,NA,NA,NA,NA,30915,82.1,788,2.6,27,Kelantan,Government,Yes
+P028,Pasir Puteh,Kalthom Othman,BA,PAS,27018,52.3,Che Min Che Ahmad,BN,UMNO,23208,44.9,3810,Alwi Jusoh,BA,PAS,57308,98,2,NA,NA,NA,NA,51676,90.2,1184,2.3,28,Kelantan,Opposition,No
+P029,Machang,Sazmi Miah,BN,UMNO,17464,49.3,Mohd Yusof Mohd Noor,BA,PAS,17329,49,135,Mohd Yusof Mohd Noor,BA,PAS,43874,95,5,NA,NA,NA,NA,35392,80.7,599,1.7,29,Kelantan,Government,Yes
+P030,Jeli,Mustapa Mohamed,BN,UMNO,16960,62.9,Mohd Apandi Mohamad,BA,PAS,9607,35.6,7353,Mohd Apandi Mohamad,BA,PAS,32729,99,NA,NA,NA,NA,NA,26961,82.4,394,1.5,30,Kelantan,Government,Yes
+P031,Kuala Krai,Mohammad Razali Che Mamat,BN,UMNO,19148,52.2,Wan Abdul Rahim Wan Abdullah,BA,PAS,16732,45.6,2416,Mohamed Nasir Che Daud,BA,PAS,45259,92,6,2,NA,NA,NA,36667,81,785,2.1,31,Kelantan,Government,No
+P032,Gua Musang,Tengku Razaleigh Hamzah,BN,UMNO,13570,64.4,Zulkefli Mohamed,BA,PAS,6972,33.1,6598,Tengku Razaleigh Hamzah,BN,UMNO,26137,82,9,NA,9,NA,NA,21076,80.6,534,2.5,32,Kelantan,Government,Yes
+P033,Besut,Abdullah Md Zin,BN,UMNO,26087,58.8,Nasharuddin Mat Isa,BA,PAS,17587,39.6,8500,Hassan Mohamed,BA,PAS,51284,98,2,NA,NA,NA,NA,44357,86.5,683,1.5,33,Terengganu,Government,No
+P034,Setiu,Mohd Yusof Majid,BN,UMNO,23079,57.1,Che Ghani Che Ambak,BA,PAS,16383,40.5,6696,Che Ghani Che Ambak,BA,PAS,48161,99,NA,NA,NA,NA,NA,40412,83.9,714,1.8,34,Terengganu,Government,Yes
+P035,Kuala Nerus,Che Azmi Abd Rahman,BN,UMNO,24895,53.5,Mohd Shukrimun Shamsuddin,BA,PAS,20798,44.7,4097,Mohd Shukrimun Shamsuddin,BA,PAS,52468,99,NA,NA,NA,NA,NA,46546,88.7,713,1.5,35,Terengganu,Government,Yes
+P036,Kuala Terengganu,Razali Ismail,BN,UMNO,30994,50.9,Syed Azman Syed Ahmad Nawawi,BA,PAS,29061,47.7,1933,Syed Azman Syed Ahmad Nawawi,BA,PAS,72259,88,12,NA,NA,NA,NA,60939,84.3,790,1.3,36,Terengganu,Government,Yes
+P037,Marang,Abdul Rahman Bakar,BN,UMNO,28076,49.1,Abdul Hadi Awang,BA,PAS,27913,48.8,163,Abdul Hadi Awang,BA,PAS,64367,98,2,NA,NA,NA,NA,57186,88.8,866,1.5,37,Terengganu,Government,Yes
+P038,Hulu Terengganu,Tengku Putera Tengku Awang,BN,UMNO,23815,58.7,Muhyiddin Abdul Rashid,BA,PAS,16055,39.6,7760,Muhyiddin Abdul Rashid,BA,PAS,45258,99,NA,NA,NA,NA,NA,40559,89.6,633,1.6,38,Terengganu,Government,Yes
+P039,Dungun,Rosli Mat Hassan,BN,UMNO,26398,52.6,Mustafa Ali,BA,PAS,21502,42.8,4896,Mustafa Ali,BA,PAS,55711,95,5,NA,NA,NA,NA,50206,90.1,708,1.4,39,Terengganu,Government,Yes
+P040,Kemaman,Ahmad Shabery Cheek,BN,UMNO,36517,62.5,Abd Rahman Yusof,BA,PKR,20635,35.3,15882,Abdul Rahman Yusof,BA,PKR,66416,91,8,NA,NA,NA,NA,58461,88,1036,1.8,40,Terengganu,Government,No
+P041,Kepala Batas,Abdullah Ahmad Badawi,BN,UMNO,25403,76.2,Abdul Khalid Rasid,BA,PAS,7281,21.8,18122,Abdullah Ahmad Badawi,BN,UMNO,39622,74,22,4,NA,NA,NA,33356,84.2,672,2,41,Penang,Government,Yes
+P042,Tasek Gelugor,Mohd Shariff Omar,BN,UMNO,22011,63.7,Mujahid Yusof Rawa,BA,PAS,11828,34.2,10183,Mohd Shariff Omar,BN,UMNO,41615,77,15,7,NA,NA,NA,34551,83,620,1.8,42,Penang,Government,Yes
+P043,Bagan,Lim Hock Seng,NA,DAP,23095,53,Lim Chien Aun,BN,MCA,19473,44.7,3622,Lim Hock Seng,BA,DAP,57322,15,71,14,NA,NA,NA,43542,76,961,2.2,43,Penang,Opposition,Yes
+P044,Permatang Pauh,Wan Azizah Wan Ismail,BA,PKR,21737,49.7,Pirdaus Ismail,BN,UMNO,21147,48.4,590,Wan Azizah Wan Ismail,BA,PKR,54041,68,26,6,NA,NA,NA,43734,80.9,665,1.5,44,Penang,Opposition,Yes
+P045,Bukit Mertajam,Chong Eng,NA,DAP,26215,57.7,Ma Kok Ben,BN,MCA,17651,38.8,8564,Chong Eng,BA,DAP,58736,19,73,9,NA,NA,NA,45442,77.4,1148,2.5,45,Penang,Opposition,Yes
+P046,Batu Kawan,Huan Cheng Guan,BN,Gerakan,17097,52.5,Law Choo Kiang,BA,PKR,8099,24.9,8998,New constituency,NA,NA,43055,21,56,23,NA,NA,NA,32559,75.6,811,2.5,46,Penang,Government,No
+P046,Batu Kawan,Huan Cheng Guan,BN,Gerakan,17097,52.5,Tanasekharan Autherapady,NA,DAP,6552,20.1,8998,New constituency,NA,NA,43055,21,56,23,NA,NA,NA,32559,75.6,811,2.5,46,Penang,Government,No
+P047,Nibong Tebal,Zainal Abidin Osman,BN,UMNO,18823,58.1,Goh Kheng Huat,NA,DAP,12818,39.5,6005,Goh Kheng Huat,BA,DAP,41161,44,41,16,NA,NA,NA,32413,78.8,751,2.3,47,Penang,Government,Yes
+P048,Bukit Bendera,Chia Kwang Chye,BN,Gerakan,28281,60.4,Zulkifli Mohd Noor,NA,DAP,17564,37.5,10717,Chia Kwang Chye,BN,Gerakan,65126,14,74,11,NA,NA,NA,46843,71.9,998,2.1,48,Penang,Government,Yes
+P049,Tanjong,Chow Kon Yeow,NA,DAP,21652,54.4,Ooi Swee Hing,BN,Gerakan,17424,43.8,4228,Chow Kon Yeow,BA,DAP,57902,5,86,9,NA,NA,NA,39793,68.7,717,1.8,49,Penang,Opposition,Yes
+P050,Jelutong,Lee Kah Choon,BN,Gerakan,24988,57.4,Gooi Seong Kin,NA,DAP,17518,40.2,7470,Lee Kah Choon,BN,Gerakan,59641,20,68,12,NA,NA,NA,43538,73,1002,2.3,50,Penang,Government,Yes
+P051,Bukit Gelugor,Karpal Singh Ram Singh,NA,DAP,22529,50.5,Lim Boo Chang,BN,MCA,21268,47.7,1261,New constituency,NA,NA,60123,16,74,10,NA,NA,NA,44618,74.2,793,1.8,51,Penang,Opposition,No
+P052,Bayan Baru,Wong Kam Hoong,BN,MCA,29430,71.7,Ong Peng Cheow,BA,PKR,10579,25.8,18851,Wong Kam Hoong,BN,MCA,55407,40,48,12,NA,NA,NA,41020,74,1010,2.5,52,Penang,Government,Yes
+P053,Balik Pulau,Hilmi Yahaya,BN,UMNO,21114,70.7,Rohana Ariffin,BA,PKR,8177,27.4,12937,Mohd. Zain Omar,BN,UMNO,38611,59,36,4,NA,NA,NA,29855,77.4,564,1.9,53,Penang,Government,No
+P054,Gerik,Wan Hashim Wan Teh,BN,UMNO,12293,71.3,Ramli Tusin,BA,PAS,4213,24.4,8080,Khamsiyah Yeop,BN,UMNO,24646,67,20,NA,8,NA,NA,17247,70,737,4.3,54,Perak,Government,No
+P055,Lenggong,Khamsiyah Yeop,BN,UMNO,10924,66.1,Zulkifli Abu,BA,PAS,5292,32,5632,New constituency,NA,NA,23159,78,18,2,NA,NA,NA,16531,71.4,295,1.8,55,Perak,Government,No
+P056,Larut,Raja Ahmad Zainuddin Raja Omar,BN,UMNO,18421,61,Kamaruddin Awang Basir,BA,PAS,10983,36.4,7438,Raja Ahmad Zainuddin Raja Omar,BN,UMNO,40150,86,7,7,NA,NA,NA,30177,75.2,756,2.5,56,Perak,Government,Yes
+P057,Parit Buntar,Abdul Hamid Zainal Abidin,BN,UMNO,19317,55.9,Hasan Mohamed Ali,BA,PAS,14619,42.3,4698,Hasan Mohamed Ali,BA,PAS,44797,67,28,5,NA,NA,NA,34566,77.2,590,1.7,57,Perak,Government,Yes
+P058,Bagan Serai,Zainal Abidin Zin,BN,UMNO,19827,56.5,Ahmad Awang,BA,PAS,14213,40.5,5614,Zainal Abidin Zin,BN,UMNO,47745,73,16,11,NA,NA,NA,35066,73.4,982,2.8,58,Perak,Government,Yes
+P059,Bukit Gantang,Tan Lian Hoe,BN,Gerakan,16846,60.8,Lo' Lo' Mohd Ghazali,BA,PAS,10144,36.6,6702,Abdullah Fadzil Che Wan,BN,UMNO,53880,63,28,10,NA,NA,NA,27699,51.4,655,2.4,59,Perak,Government,No
+P060,Taiping,M. Kayveas,BN,PPP,20129,44.9,Ong Chee Keng,NA,DAP,17957,40.1,2172,Kerk Choo Ting,BN,Gerakan,65046,32,53,14,NA,NA,NA,44821,68.9,1337,3,60,Perak,Government,No
+P060,Taiping,M. Kayveas,BN,PPP,20129,44.9,Annah Dorai Pakiri,BA,PKR,4371,9.8,2172,Kerk Choo Ting,BN,Gerakan,65046,32,53,14,NA,NA,NA,44821,68.9,1337,3,60,Perak,Government,No
+P061,Padang Rengas,Mohamed Nazri Abdul Aziz,BN,UMNO,9214,65.7,Mohd Zolkafli Yahaya,BA,PKR,4442,31.7,4772,Mohamed Nazri Abdul Aziz,BN,UMNO,24863,73,20,7,NA,NA,NA,14025,56.4,323,2.3,61,Perak,Government,Yes
+P062,Sungai Siput,Samy Vellu Sangalimuthu,BN,MIC,18797,60.9,Michael Jeyakumar Devaraj,BA,PKR,8562,27.7,10235,Samy Vellu Sangalimuthu,BN,MIC,46783,31,41,23,NA,NA,NA,30863,66,583,1.9,62,Perak,Government,Yes
+P062,Sungai Siput,Samy Vellu Sangalimuthu,BN,MIC,18797,60.9,Samugam Ponmugam Ponnan,NA,DAP,2864,9.3,10235,Samy Vellu Sangalimuthu,BN,MIC,46783,31,41,23,NA,NA,NA,30863,66,583,1.9,62,Perak,Government,Yes
+P063,Tambun,Ahmad Husni Hanadzlah,BN,UMNO,31824,66.9,Khairuddin Abdul Malek,BA,PAS,14464,30.4,17360,Ahmad Husni Hanadzlah,BN,UMNO,65219,63,24,12,NA,NA,NA,47572,72.9,1280,2.7,63,Perak,Government,Yes
+P064,Ipoh Timor,Lim Kit Siang,NA,DAP,28851,58.7,Thong Fah Chong,BN,MCA,19077,38.8,9774,Thong Fah Chong,BN,MCA,73333,9,86,5,NA,NA,NA,49175,67.1,933,1.9,64,Perak,Opposition,Yes
+P065,Ipoh Barat,Kulasegaran Murugeson,NA,DAP,22935,49,Ho Cheong Sing,BN,MCA,22337,47.8,598,Ho Cheong Sing,BN,MCA,68394,13,64,23,NA,NA,NA,46768,68.4,1015,2.2,65,Perak,Opposition,Yes
+P066,Batu Gajah,Fong Po Kuan,NA,DAP,28662,56.3,Ong Ka Chuan,BN,MCA,20735,40.7,7927,Fong Po Kuan,BA,DAP,73148,10,79,11,NA,NA,NA,50952,69.7,771,1.5,66,Perak,Opposition,Yes
+P067,Kuala Kangsar,Rafidah Aziz,BN,UMNO,11305,64.7,Mohammad Nizar Jamaluddin,BA,PAS,5748,32.9,5557,Rafidah Aziz,BN,UMNO,28391,65,27,7,NA,NA,NA,17484,61.6,305,1.7,67,Perak,Government,Yes
+P068,Beruas,Lim Keng Yaik,BN,Gerakan,15867,54.1,Nga Hock Cheh,NA,DAP,11303,38.6,4564,Lim Keng Yaik,BN,Gerakan,42173,32,55,13,NA,NA,NA,29318,69.5,1103,3.8,68,Perak,Government,Yes
+P069,Parit,Nasarudin Hashim,BN,UMNO,12808,59.5,Muhammad Ismi Mat Taib,BA,PAS,8112,37.7,4696,Mat Basir Rahmat,BA,PAS,28916,91,4,4,NA,NA,NA,21532,74.5,483,2.2,69,Perak,Government,No
+P070,Kampar,Hew See Tong,BN,MCA,23129,60.3,Liew Ah Kim,NA,DAP,13655,35.6,9474,Hew See Tong,BN,MCA,60874,26,64,10,NA,NA,NA,38326,63,1542,4,70,Perak,Government,Yes
+P071,Gopeng,Ting Chew Peh,BN,MCA,29660,62.8,Lee Boon Chye,BA,PKR,15400,32.6,14260,Ting Chew Peh,BN,MCA,68466,42,48,9,NA,NA,NA,47214,69,1323,2.8,71,Perak,Government,Yes
+P072,Tapah,S Veerasingam,BN,MIC,16945,66,Mohd Radzi Othman,BA,PAS,7359,28.7,9586,S Veerasingam,BN,MIC,38899,44,34,13,NA,NA,NA,25681,66,956,3.7,72,Perak,Government,Yes
+P073,Pasir Salak,Ramli Ngah Talib,BN,UMNO,19422,62.2,Muhaimin Sulam,BA,PAS,10875,34.8,8547,Ramli Ngah Talib,BN,UMNO,42959,79,15,5,NA,NA,NA,31216,72.7,919,2.9,73,Perak,Government,Yes
+P074,Lumut,Kong Cho Ha,BN,MCA,27415,54.6,Mustaffa Kamil Ayub,BA,PKR,15801,31.5,11614,Kong Cho Ha,BN,MCA,68522,47,41,11,NA,NA,NA,50179,73.2,1477,2.9,74,Perak,Government,Yes
+P075,Bagan Datok,Ahmad Zahid Hamidi,BN,UMNO,17049,75.3,Ayyathurai Achutaraman,BA,PKR,4510,19.9,12539,Ahmad Zahid Hamidi,BN,UMNO,34182,57,20,23,NA,NA,NA,22634,66.2,1075,4.8,75,Perak,Government,Yes
+P076,Telok Intan,Mah Siew Keong,BN,Gerakan,18665,53.5,Wu Him Ven,NA,DAP,8829,25.3,9836,Mah Siew Keong,BN,Gerakan,53063,35,45,20,NA,NA,NA,34877,65.7,1255,3.6,76,Perak,Government,Yes
+P076,Telok Intan,Mah Siew Keong,BN,Gerakan,18665,53.5,Gobalakrishnan Nagapan,BA,PKR,6128,17.6,9836,Mah Siew Keong,BN,Gerakan,53063,35,45,20,NA,NA,NA,34877,65.7,1255,3.6,76,Perak,Government,Yes
+P077,Tanjong Malim,Loke Yuen Yow,BN,MCA,24025,68.8,Shamsuddin Abdul Rahman,BA,PKR,9489,27.2,14536,Loke Yuen Yow,BN,MCA,52743,49,32,16,NA,NA,NA,34906,66.2,1275,3.7,77,Perak,Government,Yes
+P078,Cameron Highlands,Devamany S. Krishnasamy,BN,MIC,10226,67.3,Apalasamy Jataliah,NA,DAP,3966,26.1,6260,New constituency,NA,NA,23061,36,33,NA,16,NA,NA,15202,65.9,1010,6.6,78,Pahang,Government,No
+P079,Lipis,Mohamad Shahrum Osman,BN,UMNO,13870,66.4,Mohd Zai Mustafa,BA,PAS,6246,29.9,7624,Amihamzah Ahmad,BN,UMNO,28083,73,20,7,NA,NA,NA,20875,74.3,528,2.5,79,Pahang,Government,No
+P080,Raub,Ng Yen Yen,BN,MCA,20472,62.9,Choong Siew Oon,NA,DAP,10720,32.9,9752,Ng Yen Yen,BN,MCA,44543,48,44,7,NA,NA,NA,32546,73.1,1280,3.9,80,Pahang,Government,Yes
+P081,Jerantut,Tengku Azlan Sultan Abu Bakar,BN,UMNO,21349,58.6,Hamzah Jaafar,BA,PAS,12892,35.4,8457,Tengku Azlan Sultan Abu Bakar,BN,UMNO,46059,80,15,3,NA,NA,NA,36444,79.1,776,2.1,81,Pahang,Government,Yes
+P082,Indera Mahkota,Wan Adnan Wan Mamat,BN,UMNO,25177,67.5,Dzulkifli Ismail,BA,PKR,10948,29.4,14229,New constituency,NA,NA,47455,65,28,6,NA,NA,NA,37296,78.6,801,2.2,82,Pahang,Government,No
+P083,Kuantan,Fu Ah Kiow,BN,MCA,21324,62.2,Fuziah Salleh,BA,PKR,12177,35.5,9147,Mohd Khalil Yaakob,BN,UMNO,45935,58,37,5,NA,NA,NA,34290,74.7,543,1.6,83,Pahang,Government,No
+P084,Paya Besar,Siti Zaharah Sulaiman,BN,UMNO,20474,70.6,Saari Sungib,BA,PKR,7956,27.4,12518,Siti Zaharah Sulaiman,BN,UMNO,37440,78,19,2,NA,NA,NA,29001,77.5,564,1.9,84,Pahang,Government,Yes
+P085,Pekan,Najib Razak,BN,UMNO,31956,77.9,Zakaria Dahlan,BA,PAS,9034,22,22922,Najib Razak,BN,UMNO,52687,89,3,NA,6,NA,NA,41046,77.9,56,0.1,85,Pahang,Government,Yes
+P086,Maran,Ismail Muttalib,BN,UMNO,15725,63.1,Tuan Ibrahim Tuan Man,BA,PAS,8483,34.1,7242,Muhammad Abdullah,BN,UMNO,31860,89,8,2,NA,NA,NA,24910,78.2,569,2.3,86,Pahang,Government,No
+P087,Kuala Krau,Ismail Mohamed Said,BN,UMNO,16021,63.6,Musaniff Ab Rahman,BA,PAS,8670,34.4,7351,New constituency,NA,NA,31404,89,4,NA,4,NA,NA,25179,80.2,487,1.9,87,Pahang,Government,No
+P088,Temerloh,Mohd Sarit Yusoh,BN,UMNO,24633,65.6,Idris Omar,BA,PAS,12026,32,12607,Mohd Sarit Yusoh,BN,UMNO,49984,62,27,9,NA,NA,NA,37543,75.1,884,2.4,88,Pahang,Government,Yes
+P089,Bentong,Liow Tiong Lai,BN,MCA,27144,70.2,Abu Bakar Lebai Sudin,NA,DAP,10305,26.6,16839,Liow Tiong Lai,BN,MCA,52665,41,49,9,NA,NA,NA,38689,73.5,1000,2.6,89,Pahang,Government,Yes
+P090,Bera,Ismail Sabri Yaakob,BN,UMNO,16714,55.9,Abdul Wahab Ismail,BA,PAS,12244,41,4470,New constituency,NA,NA,40631,58,35,5,NA,NA,NA,29874,73.5,889,3,90,Pahang,Government,No
+P091,Rompin,Jamaluddin Jarjis,BN,UMNO,19359,65.4,Sukri Ahmad,BA,PAS,10009,33.8,9350,Jamaluddin Jarjis,BN,UMNO,38319,89,3,NA,6,NA,NA,29585,79,217,2.3,91,Pahang,Government,Yes
+P092,Sabak Bernam,Mat Yasir Ikhsan,BN,UMNO,13826,59.9,Badrul Amin Bahron,BA,PKR,8478,36.7,5348,Zainal Dahlan,BN,UMNO,30862,80,14,6,NA,NA,NA,23087,74.8,776,3.4,92,Selangor,Government,No
+P093,Sungai Besar,Noriah Kasnon,BN,UMNO,15337,63.6,Sallehen Mukhyi,BA,PAS,7988,33.1,7349,New constituency,NA,NA,31001,66,32,2,NA,NA,NA,24120,77.8,795,3.3,93,Selangor,Government,No
+P094,Hulu Selangor,Palanivel K. Govindasamy,BN,MIC,27807,65.3,Ismail Kamus,BA,PAS,13324,31.3,14483,Palanivel K. Govindasamy,BN,MIC,58533,50,29,19,NA,NA,NA,42592,72.8,1406,3.3,94,Selangor,Government,Yes
+P095,Tanjong Karang,Noh Omar,BN,UMNO,17750,65.3,Abdul Ghani Samsudin,BA,PAS,8742,32.1,9008,Noh Omar,BN,UMNO,35816,70,18,13,NA,NA,NA,27196,75.9,704,2.6,95,Selangor,Government,Yes
+P096,Kuala Selangor,Mohd Daud Taripeh,BN,UMNO,22001,70.4,Raja Kamaruddin Raja Abdul Wahid,BA,PKR,8339,26.7,13662,Jamaluddin Adnan,BN,UMNO,41712,60,17,23,NA,NA,NA,31231,74.9,866,2.8,96,Selangor,Government,No
+P097,Selayang,Chan Kong Choy,BN,MCA,36343,71.2,Koh Swe Yong,BA,PKR,13117,25.7,23226,Chan Kong Choy,BN,MCA,71152,44,39,17,NA,NA,NA,51033,71.7,1444,2.8,97,Selangor,Government,Yes
+P098,Gombak,Rahman Ismail,BN,UMNO,39870,59.2,Mohd Hatta Ramli,BA,PAS,26663,39.6,13207,Zaleha Ismail,BN,UMNO,92225,74,14,11,NA,NA,NA,67358,73,691,1,98,Selangor,Government,No
+P099,Ampang,Rozaidah Talib,BN,UMNO,33214,70,Xavier Jayakumar Arulanandam,BA,PKR,13482,28.4,19732,New constituency,NA,NA,66626,55,35,10,NA,NA,NA,47479,71.3,710,1.5,99,Selangor,Government,No
+P100,Pandan,Ong Tee Keat,BN,MCA,26721,66.8,Iskandar Abdul Samad,BA,PAS,12609,31.5,14112,New constituency,NA,NA,57884,52,42,5,NA,NA,NA,40024,69.2,632,1.6,100,Selangor,Government,No
+P101,Hulu Langat,Markiman Kobiran,BN,UMNO,40937,66.9,Yeop Adlan Che Rose,BA,PAS,18160,29.7,22777,Badrul Hisham Abdul Aziz,BN,UMNO,79999,52,37,10,NA,NA,NA,61209,76.5,1625,2.7,101,Selangor,Government,No
+P102,Serdang,Yap Pian Hon,BN,MCA,34495,57.6,Wong Kok Yew,NA,DAP,23215,38.8,11280,Yap Pian Hon,BN,MCA,78837,34,54,11,NA,NA,NA,59850,75.9,2038,3.4,102,Selangor,Government,Yes
+P103,Puchong,Loo Yeng Peng,BN,Gerakan,21291,52.6,Azmi Jamion,BA,PAS,9409,23.2,11882,New constituency,NA,NA,59694,47,36,16,NA,NA,NA,40496,67.8,533,1.3,103,Selangor,Government,No
+P103,Puchong,Loo Yeng Peng,BN,Gerakan,21291,52.6,Wong Choong Yun,NA,DAP,9185,22.7,11882,New constituency,NA,NA,59694,47,36,16,NA,NA,NA,40496,67.8,533,1.3,103,Selangor,Government,No
+P104,Kelana Jaya,Loh Seng Kok,BN,MCA,35846,70.6,Syed Shahir Syed Mohamed,BA,PKR,14275,28.1,21571,New constituency,NA,NA,72518,42,38,19,NA,NA,NA,50803,70.1,627,1.2,104,Selangor,Government,No
+P105,Petaling Jaya Selatan,Donald Lim Siang Chai,BN,MCA,35054,70.5,Sivarasa Rasiah,BA,PKR,13638,27.4,21416,Donald Lim Siang Chai,BN,MCA,73503,37,47,16,NA,NA,NA,49738,67.7,1008,2,105,Selangor,Government,Yes
+P106,Petaling Jaya Utara,Chew Mei Fun,BN,MCA,32422,61.8,Ronnie Liu Tian Khiew,NA,DAP,19379,36.9,13043,Chew Mei Fun,BN,MCA,75935,15,77,7,NA,NA,NA,52460,69.1,619,1.2,106,Selangor,Government,Yes
+P107,Subang,Karnail Singh Nijhar,BN,MIC,32941,63.3,Mohd Nasir Hashim,BA,PKR,17481,33.6,15460,Karnail Singh Nijhar,BN,MIC,68739,49,34,16,NA,NA,NA,52017,75.7,1063,2,107,Selangor,Government,Yes
+P108,Shah Alam,Abdul Aziz Shamsuddin,BN,UMNO,32417,61.9,Khalid Samad,BA,PAS,19007,36.3,13410,Mohd Zin Mohamed,BN,UMNO,69170,66,17,17,NA,NA,NA,52336,75.7,699,1.3,108,Selangor,Government,No
+P109,Kapar,Komala Devi M. Perumal,BN,MIC,44007,58.1,Ang Hiok Gai,BA,PKR,29419,38.8,14588,Komala Devi M. Perumal,BN,MIC,104185,49,38,13,NA,NA,NA,75789,72.7,2356,3.1,109,Selangor,Government,Yes
+P110,Klang,Tan Yee Kew,BN,MCA,32138,61.5,Wong Ang Peng,NA,DAP,18857,36.1,13281,Tan Yee Kew,BN,MCA,74062,33,47,19,NA,NA,NA,52265,70.6,1215,2.3,110,Selangor,Government,Yes
+P111,Kota Raja,Vigneswaran Sanasee,BN,MIC,24376,54.5,Siti Mariah Mahmud,BA,PAS,16137,36.1,8239,New constituency,NA,NA,58374,50,21,28,NA,NA,NA,44758,76.7,627,1.4,111,Selangor,Government,No
+P111,Kota Raja,Vigneswaran Sanasee,BN,MIC,24376,54.5,Krisnasamy Thevarayan,NA,IND,3608,8.1,8239,New constituency,NA,NA,58374,50,21,28,NA,NA,NA,44758,76.7,627,1.4,111,Selangor,Government,No
+P112,Kuala Langat,Shafie Salleh,BN,UMNO,34118,70.1,Zulkifli Noordin,BA,PKR,12623,25.9,21495,Shafie Salleh,BN,UMNO,63151,52,27,19,NA,NA,NA,48694,77.1,1387,2.9,112,Selangor,Government,Yes
+P113,Sepang,Mohd Zin Mohamed,BN,UMNO,30755,71.4,Mohamed Makki Ahmad,PR,PAS,11918,27.7,18837,Seripah Noli Syed Hussin,BN,UMNO,58296,55,24,19,NA,NA,NA,43054,73.9,315,0.7,113,Selangor,Government,No
+P114,Kepong,Tan Seng Giaw,NA,DAP,23282,51.8,Ma Woei Chyi,BN,Gerakan,21428,47.7,1854,Tan Seng Giaw,BA,DAP,60273,4,91,5,NA,NA,NA,44956,74.6,212,0.5,114,Kuala Lumpur,Opposition,Yes
+P115,Batu,Ng Lip Yong,BN,Gerakan,28718,62.1,Chua Tian Chang,BA,PKR,17201,37.2,11517,Ng Lip Yong,BN,Gerakan,67652,42,41,16,NA,NA,NA,46228,68.3,309,0.7,115,Kuala Lumpur,Government,Yes
+P116,Wangsa Maju,Yew Teong Look,BN,MCA,23135,62.1,Sahri Bahari,BA,PKR,12950,34.8,10185,Zulhasnan Rafique,BN,UMNO,50682,53,38,8,NA,NA,NA,37254,73.5,340,0.9,116,Kuala Lumpur,Government,No
+P117,Segambut,Tan Kee Kwong,BN,Gerakan,28061,69.7,Kuan Perk Siong,NA,DAP,11093,27.6,16968,Tan Kee Kwong,BN,Gerakan,57349,35,49,15,NA,NA,NA,40261,70.2,640,1.6,117,Kuala Lumpur,Government,Yes
+P118,Setiawangsa,Zulhasnan Rafique,BN,UMNO,27757,76.8,Abdul Rashid Hassan Basri,BA,PAS,8088,22.4,19669,New constituency,NA,NA,51536,52,36,10,NA,NA,NA,36137,70.1,292,0.8,118,Kuala Lumpur,Government,No
+P119,Titiwangsa,Astaman Abdul Aziz,BN,UMNO,22910,65.5,Mohamad Noor Mohamad,BA,PAS,11095,31.7,11815,Suleiman Mohamed,BN,UMNO,52017,64,24,11,NA,NA,NA,34980,67.3,189,0.5,119,Kuala Lumpur,Government,No
+P120,Bukit Bintang,Fong Kui Lun,NA,DAP,19103,47.8,Tan Chew Mooi,BN,MCA,18799,47.1,304,Fong Kui Lun,BA,DAP,65112,13,76,11,NA,NA,NA,39938,61.3,499,1.3,120,Kuala Lumpur,Opposition,Yes
+P120,Bukit Bintang,Fong Kui Lun,NA,DAP,19103,47.8,Wee Choo Keong,NA,MDP,1107,2.8,304,Fong Kui Lun,BA,DAP,65112,13,76,11,NA,NA,NA,39938,61.3,499,1.3,120,Kuala Lumpur,Opposition,Yes
+P120,Bukit Bintang,Fong Kui Lun,NA,DAP,19103,47.8,Billi Lim Peng Soon,NA,IND,132,0.3,304,Fong Kui Lun,BA,DAP,65112,13,76,11,NA,NA,NA,39938,61.3,499,1.3,120,Kuala Lumpur,Opposition,Yes
+P121,Lembah Pantai,Shahrizat Abdul Jalil,BN,UMNO,26474,69.7,Sanusi Osman,BA,PKR,11186,29.5,15288,Shahrizat Abdul Jalil,BN,UMNO,56562,53,26,20,NA,NA,NA,37958,67.1,213,0.6,121,Kuala Lumpur,Government,Yes
+P122,Seputeh,Teresa Kok Suh Sim,NA,DAP,28921,62.2,Chin Yen Foo,BN,MCA,17418,37.4,11503,Teresa Kok Suh Sim,BA,DAP,74702,5,89,5,NA,NA,NA,46532,62.3,164,0.4,122,Kuala Lumpur,Opposition,Yes
+P123,Cheras,Tan Kok Wai,NA,DAP,26940,62.4,Lee Boon Kok,BN,MCA,15970,37,10970,Tan Kok Wai,BA,DAP,67794,9,83,7,NA,NA,NA,43200,63.7,236,0.6,123,Kuala Lumpur,Opposition,Yes
+P124,Bandar Tun Razak,Tan Chai Ho,BN,MCA,33223,66.4,Rosli Ibrahim,BA,PKR,15696,31.4,17527,Tan Chai Ho,BN,MCA,67241,51,40,8,NA,NA,NA,50015,74.4,600,1.2,124,Kuala Lumpur,Government,Yes
+P125,Putrajaya,Tengku Adnan Tengku Mansor,BN,UMNO,4086,87.6,Abdul Rahman Othman,BA,PKR,540,11.6,3546,New constituency,NA,NA,5079,95,2,3,NA,NA,NA,4662,91.8,28,0.6,125,Putrajaya,Government,No
+P126,Jelebu,Rais Yatim,BN,UMNO,20650,75.2,Rosli Yaakop,BA,PAS,5870,21.4,14780,Rais Yatim,BN,UMNO,37716,61,30,7,NA,NA,NA,27470,72.8,860,3.1,126,Negeri Sembilan,Government,Yes
+P127,Jempol,Mohd Isa Abdul Samad,BN,UMNO,26360,71.8,Mohamad Fozi Mohd Zin,BA,PAS,9280,25.3,17080,Mohd. Khalid Mohd. Yunus,BN,UMNO,50553,57,29,14,NA,NA,NA,36690,72.6,1050,2.9,127,Negeri Sembilan,Government,No
+P128,Seremban,Hon Choon Kim,BN,MCA,36542,61.8,Choong Yen Loong,NA,DAP,20306,34.3,16236,Hon Choon Kim,BN,MCA,81704,39,48,12,NA,NA,NA,59172,72.4,2190,3.7,128,Negeri Sembilan,Government,Yes
+P129,Kuala Pilah,Hasan Malek,BN,UMNO,22105,69.6,Annuar Mohd Salleh,BA,PKR,8763,27.6,13342,Napsiah Omar,BN,UMNO,43094,75,18,5,NA,NA,NA,31778,73.7,910,2.9,129,Negeri Sembilan,Government,No
+P130,Rasah,Goh Siow Huat,BN,MCA,25009,52,Chan Su Sann,NA,DAP,20446,42.5,4563,Goh Siow Huat,BN,MCA,65152,27,52,21,NA,NA,NA,48055,73.8,1294,2.7,130,Negeri Sembilan,Government,Yes
+P131,Rembau,Firdaus Muhammad Rom Harun,BN,UMNO,28664,71.9,Dzulkefly Ahmad,BA,PAS,10008,25.1,18656,New constituency,NA,NA,53537,70,15,15,NA,NA,NA,39866,74.5,1114,2.8,131,Negeri Sembilan,Government,No
+P132,Telok Kemang,Sothinathan Sinna Goundar,BN,MIC,28494,69.2,Ab Manap Sahardin,BA,PKR,10717,26,17777,Sothinathan Sinna Goundar,BN,MIC,56459,37,38,24,NA,NA,NA,41189,73,1489,3.6,132,Negeri Sembilan,Government,Yes
+P133,Tampin,Shaziman Abu Mansor,BN,UMNO,23936,77.8,Abdul Razakek Abdul Rahim,BA,PAS,5852,19,18084,Shaziman Abu Mansor,BN,UMNO,41571,50,34,14,NA,NA,NA,30778,74,951,3.1,133,Negeri Sembilan,Government,Yes
+P134,Masjid Tanah,Abu Seman Yusop,BN,UMNO,24188,78.5,Muhamad Burok,BA,PAS,5789,18.8,18399,New constituency,NA,NA,39005,80,15,4,NA,NA,NA,30807,79,745,2.4,134,Melaka,Government,No
+P135,Alor Gajah,Fong Chan Onn,BN,MCA,29920,76,Goh Leong San,NA,DAP,7372,18.7,22548,Abu Seman Yusop,BN,UMNO,51588,55,32,13,NA,NA,NA,39343,76.3,1941,4.9,135,Melaka,Government,No
+P136,Tangga Batu,Idris Haron,BN,UMNO,33039,76.9,Shamsul Iskandar Md. Akin,BA,PKR,8595,20,24444,New constituency,NA,NA,53291,67,27,4,NA,NA,NA,42965,80.6,1321,3.1,136,Melaka,Government,No
+P137,Bukit Katil,Mohd Ruddin Abdul Ghani,BN,UMNO,39491,74.3,Khalid Jaafar,PR,PKR,12239,23,27252,New constituency,NA,NA,66034,51,42,6,NA,NA,NA,53149,80.5,1334,2.5,137,Melaka,Government,No
+P138,Kota Melaka,Wong Nai Chee,BN,MCA,31217,48.5,Kerk Kim Hock,NA,DAP,30998,48.1,219,Kerk Kim Hock,BA,DAP,82781,31,64,4,NA,NA,NA,64391,77.8,1959,3,138,Melaka,Government,Yes
+P139,Jasin,Mohammad Said Yusof,BN,UMNO,31198,73.6,Jasme Tompang,BA,PAS,9864,23.3,21334,Abu Zahar Ithnin,BN,UMNO,53218,68,21,11,NA,NA,NA,42406,79.7,1249,3,139,Melaka,Government,No
+P140,Segamat,Subramaniam Sathasivam,BN,MIC,17953,62,Pang Hok Liong,NA,DAP,10144,35,7809,Subramaniam Sinniah,BN,MIC,40983,41,48,12,NA,NA,NA,28974,70.7,876,3,140,Johor,Government,No
+P141,Sekijang,Baharum Mohamed,BN,UMNO,19628,80.4,Zulkaply Salleh,BA,PKR,4786,19.6,14842,New constituency,NA,NA,33594,54,40,6,NA,NA,NA,24414,72.7,0,0,141,Johor,Government,No
+P142,Labis,Chua Soi Lek,BN,MCA,16469,71.4,Tee Gey Yan,NA,DAP,5740,24.9,10729,Ling Liong Sik,BN,MCA,32518,35,49,15,NA,NA,NA,23073,71,839,3.6,142,Johor,Government,No
+P143,Pagoh,Muhyiddin Yassin,BN,UMNO,23679,80.2,Mohamad Awang,BA,PAS,4932,16.7,18747,Muhyiddin Yassin,BN,UMNO,40172,62,33,4,NA,NA,NA,29534,73.5,881,3,143,Johor,Government,Yes
+P144,Ledang,Hamim Samuri,BN,UMNO,30967,74.3,Kasim Ibrahim,BA,PAS,9296,22.3,21671,Hashim Ismail,BN,UMNO,57175,53,43,4,NA,NA,NA,41684,72.9,1362,3.3,144,Johor,Government,No
+P145,Bakri,Chua Jui Meng,BN,MCA,29320,71.6,Azhari Ismail,NA,DAP,10261,25.1,19059,Chua Jui Meng,BN,MCA,55438,44,54,2,NA,NA,NA,40939,73.9,1177,2.9,145,Johor,Government,Yes
+P146,Muar,Razali Ibrahim,BN,UMNO,21116,70.9,Mohamad Taib,BA,PAS,7701,25.9,13415,Robia Kosai,BN,UMNO,42130,62,36,2,NA,NA,NA,29770,70.7,872,2.9,146,Johor,Government,No
+P147,Parit Sulong,Syed Hood Syed Edros,BN,UMNO,26974,70.8,Suhaizan Kayat,BA,PAS,9788,25.7,17186,Ruhanie Ahmad,BN,UMNO,50134,72,27,NA,NA,NA,NA,38116,76,1244,3.3,147,Johor,Government,No
+P148,Ayer Hitam,Wee Ka Siong,BN,MCA,20065,79.6,Mohd Zamri Mat Taksis,BA,PAS,4302,17.1,15763,New constituency,NA,NA,32804,56,40,4,NA,NA,NA,25218,76.9,851,3.4,148,Johor,Government,No
+P149,Sri Gading,Mohamad Aziz,BN,UMNO,21512,80.2,Ahmad Faidi Saidi,BA,PKR,5316,19.8,16196,Mohamad Aziz,BN,UMNO,35807,66,32,2,NA,NA,NA,26828,74.9,0,0,149,Johor,Government,Yes
+P150,Batu Pahat,Junaidy Abd Wahab,BN,UMNO,38982,77.6,Mohamed Hanipa Maidin,BA,PAS,9880,19.7,29102,Siam Kasrin,BN,UMNO,68415,53,45,2,NA,NA,NA,50234,73.4,1372,2.7,150,Johor,Government,No
+P151,Simpang Renggam,Kerk Choo Ting,BN,Gerakan,18997,76.3,Atan Gombang,BA,PAS,4842,19.5,14155,New constituency,NA,NA,34240,54,35,11,NA,NA,NA,24888,72.7,907,3.6,151,Johor,Government,No
+P152,Kluang,Hoo Seong Chang,BN,MCA,33001,66.5,Ng Lam Hua,NA,DAP,14303,28.8,18698,Hoo Seong Chang,BN,MCA,67475,36,54,9,NA,NA,NA,49662,73.6,1477,3,152,Johor,Government,Yes
+P153,Sembrong,Hishammuddin Hussein,BN,UMNO,19575,85.4,Onn Jaafar,BA,PAS,2597,11.3,16978,New constituency,NA,NA,30767,50,39,10,NA,NA,NA,22932,74.6,760,3.3,153,Johor,Government,No
+P154,Mersing,Abdul Latiff Ahmad,BN,UMNO,19222,78.5,Idris Tukachil,BA,PAS,4649,19,14573,Abdul Latiff Ahmad,BN,UMNO,33890,76,21,2,NA,NA,NA,24484,72.3,613,2.5,154,Johor,Government,Yes
+P155,Tenggara,Adham Baba,BN,UMNO,19706,85.5,Salleh Farmin,BA,PAS,2618,11.3,17088,Hishammuddin Hussein,BN,UMNO,29819,74,18,7,NA,NA,NA,23056,77.3,640,2.8,155,Johor,Government,No
+P156,Kota Tinggi,Syed Hamid Albar,BN,UMNO,0,NA,Unopposed,NA,NA,0,NA,0,Syed Hamid Albar,BN,UMNO,33262,83,14,3,NA,NA,NA,NA,NA,NA,NA,156,Johor,Government,Yes
+P157,Pengerang,Azalina Othman Said,BN,UMNO,0,NA,Unopposed,NA,NA,0,NA,0,New constituency,NA,NA,30957,85,14,NA,NA,NA,NA,NA,NA,NA,NA,157,Johor,Government,No
+P158,Tebrau,Teng Boon Soon,BN,MCA,32071,81.7,Yaakob Mohd Yusof,BA,PAS,6060,15.4,26011,Mohd. Ali Hassan,BN,UMNO,52644,51,35,14,NA,NA,NA,39261,74.6,1101,2.8,158,Johor,Government,No
+P159,Pasir Gudang,Mohamed Khaled Nordin,BN,UMNO,38123,82.6,A Razak Ahmad,BA,PKR,7002,15.2,31121,New constituency,NA,NA,61171,47,40,12,NA,NA,NA,46178,75.5,907,2,159,Johor,Government,No
+P160,Johor Bahru,Shahrir Abdul Samad,BN,UMNO,54073,86.6,Atan Ahmad,BA,PAS,7281,11.7,46792,Mohamed Khaled Nordin,BN,UMNO,91108,50,44,5,NA,NA,NA,62455,68.6,1100,1.8,160,Johor,Government,No
+P161,Pulai,Nur Jazlan Mohamed,BN,UMNO,42406,83.2,Nasir Wahab,BA,PAS,7480,14.7,34926,Abdul Kadir Annuar,BN,UMNO,73256,53,38,9,NA,NA,NA,50948,69.6,1002,2,161,Johor,Government,No
+P162,Gelang Patah,Tan Ah Eng,BN,MCA,41001,78.4,Song Sing Kwee,BA,PKR,9335,17.8,31666,Chang See Ten,BN,MCA,70023,33,55,11,NA,NA,NA,52297,74.7,1903,3.6,162,Johor,Government,No
+P163,Kulai,Lim Si Cheng,BN,MCA,32278,66.7,Ong Kow Meng,NA,DAP,14134,29.2,18144,New constituency,NA,NA,62273,32,59,9,NA,NA,NA,48377,77.7,1935,4,163,Johor,Government,No
+P164,Pontian,Hasni Mohammad,BN,UMNO,26667,79.7,Hassan Abdul Karim,BA,PKR,5509,16.5,21158,Ong Ka Ting,BN,MCA,44377,68,31,NA,NA,NA,NA,33460,75.4,1167,3.5,164,Johor,Government,No
+P165,Tanjong Piai,Ong Ka Ting,BN,MCA,28046,82.6,Tan Hang Meng,NA,DAP,4431,13.1,23615,New constituency,NA,NA,44575,51,48,NA,NA,NA,NA,33938,76.1,1461,4.3,165,Johor,Government,No
+P166,Labuan,Suhaili Abdul Rahman,BN,UMNO,11087,75.1,Matusin Abdul Rahman,BA,PAS,3186,21.6,7901,Suhaili Abdul Rahman,BN,UMNO,22006,NA,NA,1,12,62,25,14761,67.1,488,3.3,166,Labuan,Government,Yes
+P167,Kudat,Abdul Rahim Bakri,BN,UMNO,13236,54.2,Abdul Rahman Sedik,NA,IND,6488,26.5,6748,New constituency,NA,NA,37089,NA,15,NA,NA,54,31,24442,65.9,1061,4.3,167,Sabah,Government,No
+P167,Kudat,Abdul Rahim Bakri,BN,UMNO,13236,54.2,Abdul Razak Abdul Salam,NA,IND,2375,9.7,6748,New constituency,NA,NA,37089,NA,15,NA,NA,54,31,24442,65.9,1061,4.3,167,Sabah,Government,No
+P167,Kudat,Abdul Rahim Bakri,BN,UMNO,13236,54.2,Asbiah Anggar,NA,IND,1282,5.2,6748,New constituency,NA,NA,37089,NA,15,NA,NA,54,31,24442,65.9,1061,4.3,167,Sabah,Government,No
+P168,Kota Marudu,Maximus Johnity Ongkili,BN,PBS,10457,56.1,Anthony Mandiau,NA,IND,7268,39,3189,New constituency,NA,NA,28111,NA,3,NA,NA,27,70,18626,66.3,901,4.8,168,Sabah,Government,No
+P169,Kota Belud,Salleh Said Keruak,BN,UMNO,19185,61.7,James Bagah,NA,IND,8956,28.8,10229,Salleh Said Keruak,BN,UMNO,41065,NA,2,NA,NA,59,39,31100,75.7,1091,3.5,169,Sabah,Government,Yes
+P169,Kota Belud,Salleh Said Keruak,BN,UMNO,19185,61.7,Jainin Giau,NA,SETIA,1586,5.1,10229,Salleh Said Keruak,BN,UMNO,41065,NA,2,NA,NA,59,39,31100,75.7,1091,3.5,169,Sabah,Government,Yes
+P170,Tuaran,Wilfred Madius Tangau,BN,UPKO,17722,65,Ansari Abdullah,BA,PKR,8555,31.4,9167,Wilfred Madius Tangau,BN,UPKO,39338,NA,8,NA,NA,44,49,27258,69.3,981,3.6,170,Sabah,Government,Yes
+P171,Sepanggar,Eric Majimbun,BN,SAPP,16426,60.9,Saidatul Badru Said,BA,PKR,5201,19.3,11225,New constituency,NA,NA,21988,NA,22,NA,NA,49,29,26990,63.7,361,3.5,171,Sabah,Government,No
+P172,Kota Kinabalu,Yee Moh Chai,BN,PBS,16047,63.8,Hiew King Chew,NA,DAP,5187,20.6,10860,New constituency,NA,NA,43121,NA,78,NA,NA,12,9,25151,58.3,294,1.2,172,Sabah,Government,No
+P172,Kota Kinabalu,Yee Moh Chai,BN,PBS,16047,63.8,Christina Liew Chin Jin,BA,PKR,3511,14,10860,New constituency,NA,NA,43121,NA,78,NA,NA,12,9,25151,58.3,294,1.2,172,Sabah,Government,No
+P173,Putatan,Marcus Mojigoh,BN,UPKO,13816,65,Awang Ahmad Sah,BA,PKR,5984,28.2,7832,New constituency,NA,NA,34123,NA,24,NA,NA,63,13,21252,62.3,725,3.4,173,Sabah,Government,No
+P174,Penampang,Donald Peter Mojuntin,BN,UPKO,16032,73.9,Jomilon Mojuntin,NA,DAP,3325,15.3,12707,Philip Benedict Lasimbang,BN,UPKO,32832,NA,33,NA,NA,11,55,21680,66,436,2,174,Sabah,Government,No
+P174,Penampang,Donald Peter Mojuntin,BN,UPKO,16032,73.9,Joseph Sulaiman,NA,IND,960,4.4,12707,Philip Benedict Lasimbang,BN,UPKO,32832,NA,33,NA,NA,11,55,21680,66,436,2,174,Sabah,Government,No
+P174,Penampang,Donald Peter Mojuntin,BN,UPKO,16032,73.9,Blaise Mosidin,BA,PKR,927,4.3,12707,Philip Benedict Lasimbang,BN,UPKO,32832,NA,33,NA,NA,11,55,21680,66,436,2,174,Sabah,Government,No
+P175,Papar,Rosnah Abdul Rashid Shirlin,BN,UMNO,0,NA,Unopposed,NA,NA,0,NA,0,Osu Sukam,BN,UMNO,31275,NA,12,NA,NA,63,25,NA,NA,NA,NA,175,Sabah,Government,No
+P176,Kimanis,Anifah Aman,BN,UMNO,9655,63.8,Awang Tengah Awang Amin,BA,PKR,4547,30.1,5108,New constituency,NA,NA,21576,NA,7,NA,NA,68,25,15126,70.1,500,3.3,176,Sabah,Government,No
+P177,Beaufort,Azizah Mohd Dun,BN,UMNO,0,NA,Unopposed,NA,NA,0,NA,0,Anifah Aman,BN,UMNO,26461,NA,12,NA,NA,63,26,NA,NA,NA,NA,177,Sabah,Government,No
+P178,Sipitang,Yusof Yacob,BN,UMNO,0,NA,Unopposed,NA,NA,0,NA,0,Yusof Yacob,BN,UMNO,23542,NA,5,NA,NA,81,14,NA,NA,NA,NA,178,Sabah,Government,Yes
+P179,Ranau,Bernard Giluk Dompok,BN,UPKO,7547,38.3,Ruhimin Adzim,NA,IND,6160,31.3,1387,New constituency,NA,NA,27986,NA,3,NA,NA,39,58,19699,70.4,775,3.9,179,Sabah,Government,No
+P179,Ranau,Bernard Giluk Dompok,BN,UPKO,7547,38.3,Karim Adam,NA,IND,3310,16.8,1387,New constituency,NA,NA,27986,NA,3,NA,NA,39,58,19699,70.4,775,3.9,179,Sabah,Government,No
+P179,Ranau,Bernard Giluk Dompok,BN,UPKO,7547,38.3,Japiril Suhaimin,NA,IND,1609,8.2,1387,New constituency,NA,NA,27986,NA,3,NA,NA,39,58,19699,70.4,775,3.9,179,Sabah,Government,No
+P180,Keningau,Joseph Pairin Kitingan,BN,PBS,0,NA,Unopposed,NA,NA,0,NA,0,Joseph Pairin Kitingan,NA,PBS,34510,NA,11,NA,NA,24,65,NA,NA,NA,NA,180,Sabah,Government,Yes
+P181,Tenom,Raime Unggi,BN,UMNO,8032,57.1,Laimun Laikin,NA,IND,5628,40,2404,Rizalman Abdullah,BN,UMNO,20417,NA,17,NA,NA,25,57,14063,68.9,396,2.8,181,Sabah,Government,No
+P182,Pensiangan,Bernard S. Maraat,BN,PBRS,5880,47.9,Martin Tommy,NA,IND,5272,43,608,New constituency,NA,NA,18075,NA,2,NA,NA,12,85,12271,67.9,562,4.6,182,Sabah,Government,No
+P182,Pensiangan,Bernard S. Maraat,BN,PBRS,5880,47.9,Razali Suffian Koroh,NA,SETIA,557,4.5,608,New constituency,NA,NA,18075,NA,2,NA,NA,12,85,12271,67.9,562,4.6,182,Sabah,Government,No
+P183,Beluran,Ronald Kiandee,BN,UMNO,0,NA,Unopposed,NA,NA,0,NA,0,Ronald Kiandee,BN,UMNO,18960,NA,2,NA,NA,61,37,NA,NA,NA,NA,183,Sabah,Government,Yes
+P184,Libaran,Juslie Ajirol,BN,UMNO,13140,79.7,Raj Munni Sabu,BA,PKR,2471,15,10669,Juslie Ajirol,BN,UMNO,26888,NA,23,NA,NA,72,5,16484,61.3,804,4.9,184,Sabah,Government,Yes
+P185,Batu Sapi,Edmund Chong Ket Wah,BN,PBS,0,NA,Unopposed,NA,NA,0,NA,0,New constituency,NA,NA,26504,NA,37,NA,NA,60,2,NA,NA,NA,NA,185,Sabah,Government,No
+P186,Sandakan,Chong Hon Min,NA,IND,9538,50.7,Liew Vui Keong,BN,LDP,8208,43.7,1330,Lau Ngan Siew,BN,LDP,33208,NA,61,NA,NA,35,4,18798,56.6,385,2.1,186,Sabah,Opposition,No
+P186,Sandakan,Chong Hon Min,NA,IND,9538,50.7,Liew Teck Khen,NA,PASOK,543,2.9,1330,Lau Ngan Siew,BN,LDP,33208,NA,61,NA,NA,35,4,18798,56.6,385,2.1,186,Sabah,Opposition,No
+P187,Kinabatangan,Bung Moktar Radin,BN,UMNO,0,NA,Unopposed,NA,NA,0,NA,0,Bung Moktar Radin,BN,UMNO,19441,NA,NA,NA,NA,92,6,NA,NA,NA,NA,187,Sabah,Government,Yes
+P188,Silam,Samsu Baharom Abdul Rahman,BN,UMNO,16613,68.8,Shamsuri Baharuddin,BA,PKR,5865,24.3,10748,Railey Jeffrey,BN,UMNO,40362,NA,14,NA,NA,72,12,24141,59.8,1517,6.3,188,Sabah,Government,No
+P189,Semporna,Mohd Shafie Apdal,BN,UMNO,13970,73.2,Madjalis Lais,NA,IND,1704,8.9,12266,Mohd Shafie Apdal,BN,UMNO,33772,NA,3,NA,NA,93,5,19086,56.5,770,4,189,Sabah,Government,Yes
+P189,Semporna,Mohd Shafie Apdal,BN,UMNO,13970,73.2,Aldani Landi,NA,IND,1162,6.1,12266,Mohd Shafie Apdal,BN,UMNO,33772,NA,3,NA,NA,93,5,19086,56.5,770,4,189,Sabah,Government,Yes
+P189,Semporna,Mohd Shafie Apdal,BN,UMNO,13970,73.2,Noraidah Abdul Salleh,NA,IND,764,4,12266,Mohd Shafie Apdal,BN,UMNO,33772,NA,3,NA,NA,93,5,19086,56.5,770,4,189,Sabah,Government,Yes
+P189,Semporna,Mohd Shafie Apdal,BN,UMNO,13970,73.2,Mohd Abdul Wahab Pg Abdullah,BA,PKR,676,3.5,12266,Mohd Shafie Apdal,BN,UMNO,33772,NA,3,NA,NA,93,5,19086,56.5,770,4,189,Sabah,Government,Yes
+P190,Tawau,Shim Paw Fatt,BN,SAPP,0,NA,Unopposed,NA,NA,0,NA,0,Shim Paw Fatt,BN,SAPP,41143,NA,44,NA,NA,51,4,NA,NA,NA,NA,190,Sabah,Government,Yes
+P191,Kalabakan,Abdul Ghapur Salleh,BN,UMNO,0,NA,Unopposed,NA,NA,0,NA,0,New constituency,NA,NA,34617,NA,13,NA,NA,78,8,NA,NA,NA,NA,191,Sabah,Government,No
+P192,Mas Gading,Tiki Lafe,BN,SPDP,10579,56.4,Patau Rubis,NA,SNAP,7867,41.9,2712,Tiki Lafe,BN,SPDP,28800,NA,19,NA,NA,13,68,18755,65.1,218,1.2,192,Sarawak,Government,Yes
+P193,Santubong,Wan Junaidi Tuanku Jaafar,BN,PBB,12590,84.5,Idris Bohari,NA,IND,2030,13.6,10560,Rohani Abdul Karim,BN,PBB,23238,NA,8,NA,NA,83,9,14902,64.1,244,1.6,193,Sarawak,Government,No
+P194,Petra Jaya,Fadillah Yusof,BN,PBB,18236,75.4,Wan Zainal Abidin Wan Senusi,BA,PKR,5420,22.4,12816,Sulaiman Daud,BN,PBB,39365,NA,12,NA,NA,79,8,24195,61.5,292,1.2,194,Sarawak,Government,No
+P195,Bandar Kuching,Chong Chieng Jen,NA,DAP,17914,51.6,Wee Kok Tiong,BN,SUPP,15873,45.8,2041,Song Swee Guan,BN,SUPP,55012,NA,91,NA,NA,5,3,34693,63.1,577,1.7,195,Sarawak,Opposition,No
+P196,Stampin,Yong Khoon Seng,BN,SUPP,21155,59.1,Voon Lee Shan,NA,DAP,13424,37.5,7731,Yong Khoon Seng,BN,SUPP,59809,NA,73,NA,NA,13,13,35806,59.9,529,1.5,196,Sarawak,Government,Yes
+P197,Kota Samarahan,Abdul Taib Mahmud,BN,PBB,0,NA,Unopposed,NA,NA,0,NA,0,Abdul Taib Mahmud,BN,PBB,27628,NA,12,NA,NA,65,22,NA,NA,NA,NA,197,Sarawak,Government,Yes
+P198,Mambong,James Dawos Mamit,BN,PBB,15368,69.6,Mangan Ngandok,NA,STAR,6270,28.4,9098,James Dawos Mamit,BN,PBB,35650,NA,27,NA,NA,12,61,22089,62,451,2,198,Sarawak,Government,Yes
+P199,Serian,Richard Riot Jaem,BN,SUPP,13960,74.7,Henry Ginai Langgie,NA,IND,4265,22.8,9695,Richard Riot Jaem,BN,SUPP,31601,NA,11,NA,NA,15,75,18686,59.1,372,2,199,Sarawak,Government,Yes
+P200,Batang Sadong,Adenan Satem,BN,PBB,10767,90,Adam Ahid,BA,PAS,1035,8.6,9732,Sukinam Domo,BN,PBB,18496,NA,6,NA,NA,74,21,11969,64.7,167,1.4,200,Sarawak,Government,No
+P201,Batang Lupar,Rohani Abdul Karim,BN,PBB,0,NA,Unopposed,NA,NA,0,NA,0,Wan Junaidi Tuanku Jaafar,BN,PBB,19027,NA,3,NA,NA,77,20,NA,NA,NA,NA,201,Sarawak,Government,No
+P202,Sri Aman,Jimmy Donald Lim,BN,PBDS,9679,62.4,Cobbold Lusoi,NA,IND,5311,34.3,4368,Jimmy Donald Lim,BN,PRS,28015,NA,17,NA,NA,20,63,15500,55.3,316,2,202,Sarawak,Government,Yes
+P203,Lubok Antu,Jawah Gerang,BN,PBDS,6962,57.4,William Nyallau Badak,NA,IND,4927,40.6,2035,Jawah Gerang,BN,PRS,17647,NA,8,NA,NA,18,74,12139,68.8,232,1.9,203,Sarawak,Government,Yes
+P204,Betong,Douglas Uggah Embas,BN,PBB,11618,84.9,Abang Zulkifli Abang Engkeh,NA,SNAP,1895,13.8,9723,Douglas Uggah Embas,BN,PBB,20737,NA,7,NA,NA,50,43,13689,66,176,1.3,204,Sarawak,Government,Yes
+P205,Saratok,Jelaing Mersat,BN,SPDP,11995,71.9,Edmond Stanley Jugol,NA,SNAP,4450,26.7,7545,Peter Tinggom Kamarau,BN,SNAP,24607,NA,7,NA,NA,44,49,16684,67.8,229,1.4,205,Sarawak,Government,No
+P206,Kuala Rajang,Wahab Dolah,BN,PBB,0,NA,Unopposed,NA,NA,0,NA,0,Mohd Effendi Norwawi,BN,PBB,17052,NA,5,NA,NA,74,20,NA,NA,NA,NA,206,Sarawak,Government,No
+P207,Sarikei,Law Hieng Ding,BN,SUPP,15485,69.8,Ngu Tieng Hai,NA,IND,3886,17.5,11599,Law Hieng Ding,BN,SUPP,35880,NA,66,NA,NA,11,23,22173,61.8,237,1.1,207,Sarawak,Government,Yes
+P207,Sarikei,Law Hieng Ding,BN,SUPP,15485,69.8,Ling Bit Tiing,NA,IND,1667,7.5,11599,Law Hieng Ding,BN,SUPP,35880,NA,66,NA,NA,11,23,22173,61.8,237,1.1,207,Sarawak,Government,Yes
+P207,Sarikei,Law Hieng Ding,BN,SUPP,15485,69.8,Junak Jawek,NA,IND,864,3.9,11599,Law Hieng Ding,BN,SUPP,35880,NA,66,NA,NA,11,23,22173,61.8,237,1.1,207,Sarawak,Government,Yes
+P208,Julau,Joseph Salang Gandum,BN,PBDS,8388,57.8,Ambrose Labang Jamba,NA,IND,5700,39.3,2688,Joseph Salang Gandum,BN,PRS,19765,NA,5,NA,NA,12,83,14521,73.5,176,1.2,208,Sarawak,Government,Yes
+P209,Kanowit,Aaron Ago Dagang,BN,PBDS,6438,58.4,Frederick Bungsu Jantan,NA,IND,4381,39.7,2057,Leo Moggie Irok,BN,PRS,18181,NA,12,NA,NA,16,72,11022,60.6,185,1.7,209,Sarawak,Government,No
+P210,Lanang,Tiong Thai King,BN,SUPP,14895,58.7,David Wong Kee Woan,NA,DAP,10174,40.1,4721,Tiong Thai King,BN,SUPP,40100,NA,72,NA,NA,10,18,25374,63.3,252,1,210,Sarawak,Government,Yes
+P211,Sibu,Robert Lau Hoi Chew,BN,SUPP,20501,53.6,Wong Ho Leng,NA,DAP,17161,44.9,3340,Robert Lau Hoi Chew,BN,SUPP,60832,NA,65,NA,NA,20,15,38216,62.8,430,1.1,211,Sarawak,Government,Yes
+P212,Mukah,Leo Michael Toyad,BN,PBB,11829,79.7,Mohamad @ Latip Rahman,NA,IND,2651,17.9,9178,Leo Michael Toyad,BN,PBB,25853,NA,10,NA,NA,75,16,14849,57.4,341,2.3,212,Sarawak,Government,Yes
+P213,Selangau,Joseph Entulu Belaun,BN,PBDS,7876,63.6,Liman Sujang,NA,SNAP,4260,34.4,3616,Joseph Mauh Ikeh,BN,PRS,20459,NA,4,NA,NA,13,83,12376,60.5,237,1.9,213,Sarawak,Government,No
+P214,Kapit,Alexander Nanta Linggi,BN,PBB,0,NA,Unopposed,NA,NA,0,NA,0,Alexander Nanta Linggi,BN,PBB,23330,NA,10,NA,NA,22,68,NA,NA,NA,NA,214,Sarawak,Government,Yes
+P215,Hulu Rajang,Billy Abit Joo,BN,PBDS,6949,66.7,Bendindang Manjah,NA,SNAP,3283,31.5,3666,Billy Abit Joo,BN,PRS,17185,NA,NA,NA,2,20,77,10416,60.6,171,1.6,215,Sarawak,Government,Yes
+P216,Bintulu,Tiong King Sing,BN,SPDP,20225,63.1,Chiew Chiu Sing,NA,DAP,8958,27.9,11267,Tiong King Sing,BN,SPDP,49374,NA,28,NA,NA,29,44,32067,65,288,0.9,216,Sarawak,Government,Yes
+P216,Bintulu,Tiong King Sing,BN,SPDP,20225,63.1,Lau Hing Kii,NA,SNAP,2583,8.1,11267,Tiong King Sing,BN,SPDP,49374,NA,28,NA,NA,29,44,32067,65,288,0.9,216,Sarawak,Government,Yes
+P217,Miri,Peter Chin Fah Kui,BN,SUPP,0,NA,Unopposed,NA,NA,0,NA,0,Peter Chin Fah Kui,BN,SUPP,74266,NA,57,NA,NA,26,17,NA,NA,NA,NA,217,Sarawak,Government,Yes
+P218,Baram,Jacob Dungau Sagan,BN,SPDP,7551,63.1,Kebing Wan,NA,SNAP,4241,35.4,3310,Jacob Dungau Sagan,BN,SPDP,25361,NA,9,NA,NA,21,70,11973,47.2,165,1.4,218,Sarawak,Government,Yes
+P219,Bukit Mas,Henry Sum Agong,BN,PBB,0,NA,Unopposed,NA,NA,0,NA,0,Henry Sum Agong,BN,PBB,35865,NA,57,NA,NA,26,17,NA,NA,NA,NA,219,Sarawak,Government,Yes
