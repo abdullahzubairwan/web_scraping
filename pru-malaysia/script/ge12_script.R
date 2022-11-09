@@ -99,5 +99,35 @@ pru_2008_result = pru_2008_result %>% mutate(parliament_status = ifelse(winner_c
 pru_2008_result = pru_2008_result %>% group_by(parliament) %>% 
   mutate(incumbent_contesting = ifelse(incumbent %in% c(winner,opponent),"Yes","No"))
 
+# 10.0 Adding Old Contituency Name for changed names
+ge_11 = readr::read_csv("data/election_result/malaysia_ge11_p_result.csv")
+
+a = unique(ge_11$constituency)
+b = unique(pru_2008_result$constituency)
+
+c1 = a[!a %in% b]
+c2 = b[!b %in% a]
+
+# GE12 changes from GE11
+# Bukit Mas -> Limbang & Lawas ( https://en.wikipedia.org/wiki/Bukit_Mas_(federal_constituency) )
+# Kuala Rajang -> Igan & Tanjong Manis ( https://en.wikipedia.org/wiki/Kuala_Rajang_(federal_constituency) )
+# Miri -- Sibuti ( https://ms.wikipedia.org/wiki/Sibuti_(kawasan_persekutuan) )
+pru_2008_result = pru_2008_result %>% 
+  mutate(old_constituency_name = 
+           case_when(
+             constituency == "Limbang" ~ "Bukit Mas",
+             constituency == "Lawas" ~ "Bukit Mas",
+             constituency == "Igan" ~ "Kuala Rajang",
+             constituency == "Tanjong Manis" ~ "Kuala Rajang",
+             constituency == "Sibuti" ~ "Miri",
+             TRUE ~ NA_character_
+           ),
+           delineation_from = 
+             case_when(
+               old_constituency_name %in% c("Limbang","Lawas","Igan","Tanjong Manis") ~ "Broken down from previous constituency",
+               old_constituency_name == "Sibuti" ~ "Seperated from previous constituency",
+               TRUE ~ NA_character_
+             ))
+
 # Save
 readr::write_csv(pru_2008_result,"data/election_result/malaysia_ge12_p_result.csv")

@@ -152,7 +152,7 @@ pru_2018_result = pru_2018_result %>% mutate(votes_winner_pct = round(votes_winn
                                              voter_turnout_pct = round(voter_turnout/eligible_voters*100,1),
                                              spoilt_votes_pct = round(voter_turnout/eligible_voters*100,1)) %>% 
   # rearranging columns to match previous data
-  select(parliament,constituency,winner,winner_coalition,winner_party,votes_winner,votes_winner_pct,
+  select(parliament,constituency,constituency_old_name,winner,winner_coalition,winner_party,votes_winner,votes_winner_pct,
          opponent,opponent_coalition,opponent_party,votes_opponent,votes_opponent_pct,
          majority,incumbent,incumbent_coalition,incumbent_party,eligible_voters,              
          voter_turnout,voter_turnout_pct,spoilt_votes,spoilt_votes_pct,
